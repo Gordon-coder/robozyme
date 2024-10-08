@@ -1,6 +1,6 @@
-import logo from "./assets/logo.png";
 import "bootstrap/dist/css/bootstrap.css";
 import ScrollSpy from "react-scrollspy-navigation";
+import logo from "../assets/logo.png"
 
 function Nav() {
     return (
