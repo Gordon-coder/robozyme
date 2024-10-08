@@ -7,3 +7,4 @@ To setup the environment:
 npm i
 npm run dev
 ```
+4. The webpage should show on http://localhost:5173
