@@ -22,12 +22,10 @@ function App() {
           ))}
         </Carousel>
       </div>
-      <div className="px-4">
       <About />
       <Tech />
       <Product />
       <Contact />
-      </div>
     </>
   );
 }
