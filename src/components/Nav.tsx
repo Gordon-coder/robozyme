@@ -13,11 +13,11 @@ function Navagation() {
         <nav
         id="navbar"
         className="navbar bg-body-tertiary px-3 fixed-top"
-        style={{ height: 80 }}
+        style={{ height: 100 }}
       >
-        <ScrollSpy activeClass="active" offsetTop={80}>
+        <ScrollSpy activeClass="active" offsetTop={100}>
         <a className="nav-link" href="#top">
-          <img src={logo} height="40" />
+          <img src={logo} height="60" />
         </a>
           <ul className="nav nav-underline">
             <li className="nav-item">
@@ -49,9 +49,9 @@ function Navagation() {
       </>
       :
       <>
-      <Navbar expand={false} className="bg-body-tertiary mb-3" fixed="top" style={{height:80}}>
+      <Navbar expand={false} className="bg-body-tertiary mb-3" fixed="top" style={{height:100}}>
           <Container fluid>
-            <Navbar.Brand href="#top"><img src={logo} height="40" /></Navbar.Brand>
+            <Navbar.Brand href="#top"><img src={logo} height="60" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand" />
             <Navbar.Offcanvas
               id="offcanvasNavbar-expand"
@@ -61,7 +61,7 @@ function Navagation() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id="offcanvasNavbarLabel-expand">
-                <img src={logo} height="40" className="ps-3"/>
+                <img src={logo} height="80" className="ps-3"/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

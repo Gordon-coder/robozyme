@@ -8,8 +8,8 @@ function About() {
   return (
     <>
       <div id="about" className="p-3">
-        <div style={{ paddingTop: 80 }}></div>
-        <h2 className="text-center">About Us</h2>
+        <div style={{ paddingTop: 20 }}></div>
+        <h1 className="text-center">About Us</h1>
         <section className="d-flex justify-content-evenly mb-5">
           <div className={isBig ? "w-50" : "w-100"}>
             <div className="w-75 m-auto">

@@ -13,7 +13,7 @@ function App() {
     <>
       <Navagation />
       <div id="top">
-        <div style={{ paddingTop: 80 }}></div>
+        <div style={{ paddingTop: 100 }}></div>
         <Carousel>
           {[placeholder_1, placeholder_2, placeholder_3].map((image) => (
             <Carousel.Item key={image}>
