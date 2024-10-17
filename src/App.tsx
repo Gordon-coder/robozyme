@@ -9,6 +9,7 @@ import About from "./components/About.tsx";
 import Tech from "./components/Tech.tsx";
 import Product from "./components/Product.tsx";
 import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Tech />
       <Product />
       <Contact />
+      <Footer />
     </>
   );
 }
