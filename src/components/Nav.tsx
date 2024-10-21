@@ -75,8 +75,8 @@ function Navagation() {
                   <Nav.Link href="#about">About Us</Nav.Link>
                   <Nav.Link href="#tech">Our Technology</Nav.Link>
                   <Nav.Link href="#product">Our Products</Nav.Link>
-                  <Nav.Link href="#contact">Contact Us</Nav.Link>
                   <Nav.Link href="#team">Our Team</Nav.Link>
+                  <Nav.Link href="#contact">Contact Us</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
