@@ -8,10 +8,16 @@ body {
 
 h1 {
     font-size: 50px;
+    margin-bottom: 24px;
 }
 
 h4 {
     font-size: 30px;
+    margin-bottom: 16px;
+}
+
+h6 {
+    font-weight:bold;
 }
 
 p {

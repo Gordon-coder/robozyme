@@ -39,6 +39,12 @@ function Navagation() {
             </li>
             <div className="vr"></div>
             <li className="nav-item">
+              <a className="nav-link" href="#team">
+                Our Team
+              </a>
+            </li>
+            <div className="vr"></div>
+            <li className="nav-item">
               <a className="nav-link" href="#contact">
                 Contact Us
               </a>
@@ -70,6 +76,7 @@ function Navagation() {
                   <Nav.Link href="#tech">Our Technology</Nav.Link>
                   <Nav.Link href="#product">Our Products</Nav.Link>
                   <Nav.Link href="#contact">Contact Us</Nav.Link>
+                  <Nav.Link href="#team">Our Team</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
