@@ -1,8 +1,8 @@
-import "bootstrap/dist/css/bootstrap.css";
-import ScrollSpy from "react-scrollspy-navigation";
+import "bootstrap/dist/css/bootstrap.css"
+import ScrollSpy from "react-scrollspy-navigation"
 import logo from "../assets/logo.png"
 import { useMediaQuery } from "react-responsive"
-import { Container, Navbar, Offcanvas, Nav } from "react-bootstrap";
+import { Container, Navbar, Offcanvas, Nav } from "react-bootstrap"
 
 function Navagation() {
   const isBig = useMediaQuery({

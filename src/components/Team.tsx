@@ -1,9 +1,9 @@
-import { useMediaQuery } from "react-responsive";
+import { useMediaQuery } from "react-responsive"
 
 function Team() {
   const isBig = useMediaQuery({
     query: "(min-width: 970px)",
-  });
+  })
 
   return (
     <>
@@ -87,7 +87,7 @@ function Team() {
         )}
       </div>
     </>
-  );
+  )
 }
 
-export default Team;
+export default Team
