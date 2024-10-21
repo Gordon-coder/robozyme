@@ -11,7 +11,7 @@ function Team() {
         <div style={{ paddingTop: 20 }}></div>
         <h1 className="text-center">Our Team</h1>
         {isBig ? (
-          <table className="mx-auto table table-striped text-center width-12 border">
+          <table className="mx-auto table table-striped width-12 border">
             <tbody>
               <tr>
                 <th scope="row">Professor Michael K Chan</th>
