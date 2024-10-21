@@ -1,29 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .h-100px {
     height: 100px;
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 50px;
 }
 
 h4 {
-    font-size: 3.2vw;
+    font-size: 30px;
 }
 
 p {
-    font-size: 2.2vw;
+    font-size: 20px
 }
 
-@media only screen and (max-width: 800px) {
-
+@media only screen and (max-width: 900px) {
     h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
-    
+
     h4 {
-        font-size: 30px;
+        font-size: 24px;
     }
-    
+
     p {
         font-size: 14px;
     }
@@ -31,4 +34,136 @@ p {
     .nav-link {
         font-size: 14px;
     }
+
+    .width-1 {
+        max-width: 44px;
+    }
+    
+    .width-2 {
+        max-width: 112px;
+    }
+    
+    .width-3 {
+        max-width: 180px;
+    }
+    
+    .width-4 {
+        max-width: 248px;
+    }
+    
+    .width-5 {
+        max-width: 316px;
+    }
+    
+    .width-6 {
+        max-width: 384px;
+    }
+    
+    .width-7 {
+        max-width: 452px;
+    }
+    
+    .width-8 {
+        max-width: 520px;
+    }
+    
+    .width-9 {
+        max-width: 588px;
+    }
+    
+    .width-10 { 
+        max-width: 656px;
+    }
+    
+    .width-11 {
+        max-width: 724px;
+    }
+    
+    .width-12 {
+        max-width: 900px;
+    }
+}
+
+.width-1 {
+    max-width: 72px;
+    min-width: 44px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-2 {
+    max-width: 168px;
+    min-width: 112px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-3 {
+    max-width: 264px; 
+    min-width: 180px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-4 {
+    max-width: 360px; 
+    min-width: 248px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-5 {
+    max-width: 456px; 
+    min-width: 316px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-6 {
+    max-width: 552px; 
+    min-width: 384px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-7 {
+    max-width: 648px;
+    min-width: 452px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-8 {
+    max-width: 744px;
+    min-width: 520px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-9 {
+    max-width: 840px; 
+    min-width: 588px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-10 {
+    max-width: 936px; 
+    min-width: 656px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-11 {
+    max-width: 1032px; 
+    min-width: 724px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.width-12 {
+    max-width: 1128px; 
+    min-width: 900px;
+    margin-right: 12px;
+    margin-left: 12px;
 }

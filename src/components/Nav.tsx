@@ -6,7 +6,7 @@ import { Container, Navbar, Offcanvas, Nav } from "react-bootstrap";
 
 function Navagation() {
   const isBig = useMediaQuery({
-    query: '(min-width: 800px)'
+    query: '(min-width: 900px)'
   })
     return (isBig ? 
         <>
@@ -49,7 +49,7 @@ function Navagation() {
       </>
       :
       <>
-      <Navbar expand={false} className="bg-body-tertiary mb-3" fixed="top" style={{height:100}}>
+      <Navbar expand={false} className="bg-body-tertiary mb-3 h-100px" fixed="top">
           <Container fluid>
             <Navbar.Brand href="#top"><img src={logo} height="60" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand" />
@@ -61,7 +61,7 @@ function Navagation() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id="offcanvasNavbarLabel-expand">
-                <img src={logo} height="80" className="ps-3"/>
+                <img src={logo} height="50" className="ps-3"/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
