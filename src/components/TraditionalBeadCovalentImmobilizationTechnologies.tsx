@@ -1,6 +1,6 @@
 import arrow_down from "../assets/arrow_down.svg";
 
-function TraditionalBeadCovalentImmobilizationTechcnologies() {
+function TraditionalBeadCovalentImmobilizationTechnologies() {
     return (
         <>
         <h4>Traditional Bead Covalent Immobilization Technologies</h4>
@@ -52,4 +52,4 @@ function TraditionalBeadCovalentImmobilizationTechcnologies() {
     )
 }
 
-export default TraditionalBeadCovalentImmobilizationTechcnologies
+export default TraditionalBeadCovalentImmobilizationTechnologies
