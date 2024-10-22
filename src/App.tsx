@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Navagation />
-      <div className="h-100px"></div>
+      <div id="space"></div>
       <div id="top">
         <Carousel>
           {[carosel_image_1, placeholder_2, placeholder_3].map((image) => (

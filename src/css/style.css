@@ -6,6 +6,10 @@ body {
     height: 100px;
 }
 
+#space {
+    height: 100px;
+}
+
 h1 {
     font-size: 50px;
     margin-bottom: 24px;
@@ -121,6 +125,14 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+    #top {
+        padding-top: 100px;
+    }
+
+    #space {
+        height: 0;
+    }
+
     h1 {
         font-size: 32px;
         padding-top: 60px;
