@@ -1,9 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css"
 import "./css/style.css"
-import carosel_image_1 from "./assets/carosel_image_1.png"
-import placeholder_2 from "./assets/placeholder_2.png"
-import placeholder_3 from "./assets/placeholder_3.png"
-import Carousel from "react-bootstrap/Carousel"
+import main_image from "./assets/main_image.png"
 import Navagation from "./components/Nav.tsx"
 import About from "./components/About.tsx"
 import Tech from "./components/Tech.tsx"
@@ -18,7 +15,7 @@ function App() {
       <Navagation />
       <div id="space"></div>
       <div id="top">
-        <img src={carosel_image_1} className="w-100" />
+        <img src={main_image} className="w-100" />
       </div>
       <About />
       <Tech />
