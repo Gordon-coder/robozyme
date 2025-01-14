@@ -18,13 +18,7 @@ function App() {
       <Navagation />
       <div id="space"></div>
       <div id="top">
-        <Carousel>
-          {[carosel_image_1, placeholder_2, placeholder_3].map((image) => (
-            <Carousel.Item key={image}>
-              <img src={image} className="w-100" />
-            </Carousel.Item>
-          ))}
-        </Carousel>
+        <img src={carosel_image_1} className="w-100" />
       </div>
       <About />
       <Tech />
