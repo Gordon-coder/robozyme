@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .h-100px {
@@ -8,6 +8,10 @@ body {
 
 #space {
     height: 100px;
+}
+
+h1, h2, h3, h4, h5, h6, table, .nav-link {
+    font-family: sans-serif;
 }
 
 h1 {
