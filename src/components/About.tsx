@@ -19,8 +19,6 @@ function About() {
               We are a startup focused on developing innovative solutions for
               generating robust, recyclable, and cost-effective enzymes that
               unlock their full potential as catalysts to produce commercially
-
-
               viable products.
             </p>
           </div>
