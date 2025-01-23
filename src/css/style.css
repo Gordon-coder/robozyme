@@ -1,17 +1,9 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .h-100px {
     height: 100px;
 }
 
 #space {
     height: 100px;
-}
-
-h1, h2, h3, h4, h5, h6, table, .nav-link {
-    font-family: sans-serif;
 }
 
 h1 {
