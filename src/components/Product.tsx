@@ -17,13 +17,13 @@ function Product() {
       <div id="product" className="p-3">
         <h1 className="text-center">Our Products</h1>
         <Carousel className="width-12" activeIndex={index} onSelect={handleSelect} data-bs-theme="dark" style={{margin:"auto"}}>
-          <Carousel.Item>
+          <Carousel.Item interval={3000}>
             <img src={OurProductRobozyme1} className="d-block w-100" alt="First slide" />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={3000}>
             <img src={OurProductRobozyme2} className="d-block w-100" alt="Second slide" />
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={3000}>
             <img src={OurProductRobozyme3} className="d-block w-100" alt="Third slide" />
           </Carousel.Item>
         </Carousel>
