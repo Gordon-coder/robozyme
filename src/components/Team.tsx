@@ -5,7 +5,9 @@ function Team() {
     <>
       <div id="team" className="p-3">
         <div style={{ paddingTop: 20 }}></div>
-        <img src={OurProductRobozyme4} className="width-12" alt="Our Team" style={{margin:"auto", display:"block"}} />
+        <div className="d-flex justify-content-center pb-5">
+          <img src={OurProductRobozyme4} className="width-12"/>
+        </div>
       </div>
     </>
   )
