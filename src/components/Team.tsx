@@ -1,4 +1,3 @@
-import { useMediaQuery } from "react-responsive"
 import OurProductRobozyme4 from "../assets/OurProductRobozyme4.png";
 
 function Team() {
